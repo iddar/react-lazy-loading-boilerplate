@@ -6,12 +6,13 @@ import PropTypes from 'prop-types'
 import { isArray } from 'lodash'
 import { Observable } from 'rxjs/Observable'
 import { Subject } from 'rxjs/Subject'
-import { injectReducers } from './actions/registry'
 import 'rxjs/add/operator/map'
 import 'rxjs/add/operator/takeUntil'
 import 'rxjs/add/observable/zip'
 import 'rxjs/add/observable/of'
 import 'rxjs/add/observable/fromPromise'
+
+import { injectReducers } from '../actions/registry'
 
 const moduleDefaultExport = module => module.default || module
 

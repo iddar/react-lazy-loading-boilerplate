@@ -10,7 +10,6 @@ const store = configureStore()
 
 class App extends Component {
   render () {
-    console.warn(this.props)
     return (
       <Provider store={store}>
         <Routes />

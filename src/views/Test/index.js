@@ -6,7 +6,6 @@ import * as LoginActions from '../../actions/login'
 
 class App extends Component {
   render () {
-    console.warn(this.props)
     return (
       <div>
         Ultralol
