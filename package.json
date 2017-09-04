@@ -12,7 +12,6 @@
   "license": "ISC",
   "devDependencies": {
     "neutrino": "^6.1.5",
-    "neutrino-middleware-styles-loader": "0.0.6",
     "neutrino-preset-react": "^6.1.5"
   },
   "dependencies": {
