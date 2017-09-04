@@ -1,4 +1,6 @@
 
+// https://github.com/luigiplr/react-router-redux-rxjs-code-splitting
+
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
 import { isArray } from 'lodash'
