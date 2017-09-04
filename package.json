@@ -1,18 +1,21 @@
 {
-  "name": "fiber",
+  "name": "react_boilerplate",
   "version": "1.0.0",
-  "description": "",
+  "description": "React lazy loading boilerplate",
   "main": "index.js",
   "scripts": {
     "start": "neutrino start",
-    "build": "neutrino build"
+    "build": "NODE_ENV=production neutrino build"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": ["boilerplate", "js", "react", "lazy loading"],
+  "author": "iddar olivares <iddar@dbug.mx>",
+  "license": "MIT",
   "devDependencies": {
+    "fs-extra": "^4.0.1",
     "neutrino": "^6.1.5",
-    "neutrino-preset-react": "^6.1.5"
+    "neutrino-middleware-extractstyles": "^2.0.1",
+    "neutrino-preset-react": "^6.1.5",
+    "yargs": "^8.0.2"
   },
   "dependencies": {
     "lodash": "^4.17.4",

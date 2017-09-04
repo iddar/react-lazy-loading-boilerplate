@@ -6,18 +6,12 @@ import { Link } from 'react-router-dom'
 import * as LoginActions from '../../actions/login'
 import style from './style.css'
 
-import BaseComponent from '../../components/BaseComponent'
-import BaseFuntionalComponent from '../../components/BaseFuntionalComponent'
 
 class App extends Component {
   render () {
     return (
       <div>
-        <h1 className={style.title}>Hola mundo</h1>
-
-        <BaseComponent />
-        <BaseFuntionalComponent />
-
+        <h1 className={style.title}>Hola <span>mundo</span></h1>
         <Link to='/test'>/app</Link>
         <button onClick={_ => this.props.actions.getRepos()}>Bum!</button>
       </div>

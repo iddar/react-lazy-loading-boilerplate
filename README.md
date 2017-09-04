@@ -24,6 +24,18 @@ $ npm start
 $ npm run build
 ```
 
+## Create component
+
+Common component
+```sh
+$ node tools/creator.js component "compoenentName"
+```
+
+Functional component
+```sh
+$ node tools/creator.js component -f "compoenentName"
+```
+
 ## Load async Routes
 ```js
 // without reducer

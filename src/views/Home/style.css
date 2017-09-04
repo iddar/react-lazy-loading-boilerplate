@@ -3,3 +3,7 @@
 .title {
   color: green;
 }
+
+.title span {
+  color: red;
+}
